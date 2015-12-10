@@ -1,0 +1,90 @@
+{
+  "name": "paper",
+  "version": "0.9.23",
+  "description": "The Swiss Army Knife of Vector Graphics Scripting",
+  "license": "MIT",
+  "homepage": "http://paperjs.org",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paperjs/paper.js"
+  },
+  "contributors": [
+    {
+      "name": "Jürg Lehni",
+      "email": "juerg@scratchdisk.com",
+      "url": "http://scratchdisk.com"
+    },
+    {
+      "name": "Jonathan Puckey",
+      "email": "jonathan@studiomoniker.com",
+      "url": "http://studiomoniker.com"
+    }
+  ],
+  "main": "dist/paper-node.js",
+  "browser": "dist/paper-full.js",
+  "files": [
+    "AUTHORS.md",
+    "dist/",
+    "examples/Node.js",
+    "LICENSE.txt",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "dependencies": {
+    "canvas": "~1.2.1",
+    "jsdom": "~3.1.2",
+    "request": "~2.53.0"
+  },
+  "devDependencies": {
+    "uglify-js": "~2.4.16",
+    "prepro": "~0.8.3"
+  },
+  "keywords": [
+    "vector",
+    "graphic",
+    "graphics",
+    "2d",
+    "geometry",
+    "bezier",
+    "curve",
+    "curves",
+    "path",
+    "paths",
+    "canvas",
+    "svg",
+    "paper",
+    "paper.js"
+  ],
+  "gitHead": "861bef8274ed286591aa42a6c43a7afcd3a907d1",
+  "bugs": {
+    "url": "https://github.com/paperjs/paper.js/issues"
+  },
+  "_id": "paper@0.9.23",
+  "scripts": {},
+  "_shasum": "3bd754c356278f890ffa273d1784136ea7871c2f",
+  "_from": "paper@*",
+  "_npmVersion": "2.5.1",
+  "_nodeVersion": "0.12.0",
+  "_npmUser": {
+    "name": "lehni",
+    "email": "juerg@lehni.org"
+  },
+  "maintainers": [
+    {
+      "name": "lehni",
+      "email": "juerg@lehni.org"
+    },
+    {
+      "name": "puckey",
+      "email": "jonathan@studiomoniker.com"
+    }
+  ],
+  "dist": {
+    "shasum": "3bd754c356278f890ffa273d1784136ea7871c2f",
+    "tarball": "http://registry.npmjs.org/paper/-/paper-0.9.23.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/paper/-/paper-0.9.23.tgz"
+}

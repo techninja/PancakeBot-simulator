@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PancakeSim</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="paper/dist/paper-full.js"></script>
+    <script type="text/javascript" src="underscore.js"></script>
+    <script type="text/javascript" src="sim.js"></script>
+    <script src="sim.ps.js" type="text/paperscript" data-paper-canvas="paperfill"></script>
+    <style type="text/css">
+      #sim-wrapper {
+        position: relative;
+        overflow: hidden;
+        height: 470px;
+        width: 872px;
+        margin: 2em;
+      }
+
+      canvas {
+        position: absolute;
+        top: 46px;
+        left: 51px;
+        z-index: 1;
+        height: 368px;
+        width: 779px;
+      }
+
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 872px;
+        height: 470px;
+      }
+
+      textarea {
+        width: 100%;
+        height: 20em;
+      }
+
+      button {
+        font-size: 1.2em;
+        padding: 0.2em 1em;
+        position: absolute;
+        right: 30px;
+        margin-top: 11px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="sim-wrapper">
+      <canvas id="paperfill" keepalive="true"></canvas>
+      <img src="griddle.svg">
+    </div>
+
+    <button id="simstart">Simulate!</button>
+    <textarea id="gcode"></textarea>
+  </body>
+</html>
