@@ -65,7 +65,7 @@ var offTime = -1;
 var isPaused = false;
 var blob;
 var lastVector;
-var darkenFactor = 0.2 / 5 / 30; // Change in lightness over 5 seconds
+var darkenFactor = 0.2 / 30 / 30; // Change in lightness over 30 seconds
 var darkenBatter = false;
 function onFrame(event) {
   if (typeof points[cPoint] !== 'undefined') {
